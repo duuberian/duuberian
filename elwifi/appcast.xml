@@ -4,18 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ELWifi</title>
         <item>
-            <title>1.1.59</title>
-            <pubDate>Thu, 10 Sep 2026 18:23:11 +0000</pubDate>
+            <title>1.1.60</title>
+            <pubDate>Fri, 11 Sep 2026 16:36:08 +0000</pubDate>
             <link>https://duuberian.com/elwifi/</link>
-            <sparkle:version>1059001</sparkle:version>
-            <sparkle:shortVersionString>1.1.59</sparkle:shortVersionString>
+            <sparkle:version>1060001</sparkle:version>
+            <sparkle:shortVersionString>1.1.60</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.1.59</h2><p>Changes since 1.1.58 · 2026-09-10</p><ul><li>Respect native form disabled state, targets, and reset during portal learning</li></ul></body></html>]]></description>
-            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1059001.zip" length="2524366" type="application/octet-stream" sparkle:edSignature="KUCSmUPF/eFWpzV9A4sZsHeneQqRPfe5gSWN1EutUbLG6XMMt3capJ+fN7QT7x6GREmDSzIjvD6Ek//Mv1abCQ=="></enclosure>
+            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.1.60</h2><p>Changes since 1.1.59 · 2026-09-11</p><ul><li>Pause portal activity during sleep and avoid stale assistant activation</li></ul></body></html>]]></description>
+            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1060001.zip" length="2527588" type="application/octet-stream" sparkle:edSignature="xFikV00hZ1hAs7+6WNTlg6jEyHfQN1ZzDuIFDxmsUyG+guI++1KN5y0eybbnVrlfJcOgJlES+8T8xAPMNKrwDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: KGp+ga60Ni0JdTHy31X24fuJ2bU5ywF3VypircoggvpCJiu3uw86Ut8UT9vIRGbvpUagJH3LTJ2lUWLyAz0+BA==
-length: 1558
+edSignature: +8cv/9qNf9Qz8ECs+ue3eTg+6dDZiC73tW4Glevgs6uDoNBkkSYv+n5YqRcWodwxrknigm2Wk5qxbgvEbt2OBA==
+length: 1552
 -->
