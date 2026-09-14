@@ -4,18 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ELWifi</title>
         <item>
-            <title>1.1.82</title>
-            <pubDate>Sun, 13 Sep 2026 20:09:19 +0000</pubDate>
+            <title>1.2.0</title>
+            <pubDate>Mon, 14 Sep 2026 16:29:03 +0000</pubDate>
             <link>https://duuberian.com/elwifi/</link>
-            <sparkle:version>1082001</sparkle:version>
-            <sparkle:shortVersionString>1.1.82</sparkle:shortVersionString>
+            <sparkle:version>1083001</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.1.82</h2><p>Changes since 1.1.81 · 2026-09-13</p><ul><li>Align release scheduling checks with one-minute updates</li></ul></body></html>]]></description>
-            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1082001.zip" length="2555876" type="application/octet-stream" sparkle:edSignature="PS45tx8ag9IH0MV0qYFf0omr92s9NWual8+zJ5xB13ZUIvu92oT8/jt8yq5V7/8u4S+S0CTD3bscJ6zHcmRUAQ=="></enclosure>
+            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.2.0</h2><p>Changes since 1.1.82 · 2026-09-14</p><ul><li>Enlarge and center status branding and use signal-only menu icon for 1.2.0</li></ul></body></html>]]></description>
+            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1083001.zip" length="2556625" type="application/octet-stream" sparkle:edSignature="DNL8egNv8LpzrvuztsZPADvhuJ28cz1bRC+2PVOztkpvWsuko3Z0V6w2QFQl2OlGyH2y8n8iU/gqEloZUCwJCw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: /J75z8Du7iLoTuYyXWkMjpsIS2+NWXfbYrHph/kmqVplVs7Dj9qTvqPoKy/aKFvnU0/dnaUlLMNW0vzm2VccCA==
-length: 1536
+edSignature: rS+cbcb8QG2i+4Mat0+BEhCnYN35JUTZefdN0oyGyA2fGiS9HRnFo42V/7sIgrG6exgp95EHZwSzQP1uJ8BKBw==
+length: 1552
 -->
