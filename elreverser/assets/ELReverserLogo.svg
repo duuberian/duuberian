@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">ELReverser</title>
+  <rect x="58" y="58" width="908" height="908" rx="210" fill="#F2F0E8"/>
+  <g fill="none" stroke="#0A1821" stroke-linecap="round" stroke-linejoin="round" stroke-width="40">
+    <path d="M212 470C240 350 280 350 320 430C360 510 400 570 440 570C480 570 520 510 560 470C600 430 640 430 680 470C720 510 760 570 812 570"/>
+    <path d="M212 570C240 690 280 690 320 610C360 530 400 470 440 470C480 470 520 530 560 570C600 610 640 610 680 570C720 530 760 470 812 470"/>
+  </g>
+</svg>

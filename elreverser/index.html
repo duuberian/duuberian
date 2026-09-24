@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ELReverser — Reverse, scramble and decode audio</title>
+  <meta name="description" content="Download ELReverser for macOS and Android. Record or import audio, reverse it in chunks, build scramble codes, and decode them later." />
+  <meta property="og:title" content="ELReverser" />
+  <meta property="og:description" content="A tiny audio playground for reversing, scrambling and decoding sound." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/ELReverserLogo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;500;600&family=Georgia&display=swap" />
+  <style>
+    :root { --paper: #faf6ee; --ink: #201d1a; --red: #d74625; --muted: #6d655d; --line: #d9d0c2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Avenir Next, system-ui, sans-serif; line-height: 1.5; }
+    main { max-width: 1100px; margin: auto; padding: 28px; }
+    header { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 20px 0 50px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 600; text-decoration: none; color: inherit; }
+    .brand img { width: 44px; height: 44px; }
+    nav { display: flex; gap: 20px; }
+    a { color: inherit; text-decoration-color: #d7462588; text-underline-offset: 4px; }
+    .hero { display: grid; grid-template-columns: minmax(0,1fr) 340px; gap: 40px; align-items: center; }
+    h1 { font-size: clamp(48px, 8vw, 92px); margin: 0; letter-spacing: -.045em; line-height: .96; }
+    .accent { color: var(--red); font-family: Georgia, serif; font-style: italic; }
+    .lead { font-size: 19px; max-width: 620px; color: var(--muted); margin: 22px 0 32px; }
+    .buttons { display: flex; gap: 14px; flex-wrap: wrap; }
+    .button { display: inline-flex; align-items: center; gap: 9px; padding: 14px 22px; border-radius: 999px; background: var(--ink); color: #fff; text-decoration: none; border: 0; }
+    .button.ghost { background: transparent; border: 1.5px solid var(--ink); color: var(--ink); }
+    .badge { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; }
+    .cover { position: relative; aspect-ratio: 1; border-radius: 28px; background: #fac4a8; box-shadow: 14px 16px 0 #b3533230; }
+    .wave { position: absolute; inset: 16% 12%; display: flex; align-items: center; gap: 9px; transform: rotate(-9deg); }
+    .wave i { flex: 1; background: var(--red); border-radius: 20px; min-height: 14px; }
+    .sticker { position: absolute; left: 16%; bottom: 14%; background: var(--paper); padding: 18px 20px; box-shadow: 8px 10px 0 #b3533230; transform: rotate(6deg); max-width: 220px; font-size: 30px; line-height: 1.05; letter-spacing: -1.4px; }
+    .sticker em { font-family: Georgia, serif; }
+    section { border-top: 1px solid var(--line); padding: 50px 0; }
+    h2 { font-size: clamp(28px, 4vw, 46px); letter-spacing: -.03em; margin: 12px 0 20px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .card { border: 1px solid var(--line); background: #fff; padding: 22px; }
+    .card strong { display: block; margin-bottom: 6px; }
+    .card span { color: var(--muted); }
+    code { display: inline-block; background: #eee6d8; padding: 3px 7px; border-radius: 5px; font-size: .9em; }
+    footer { display: flex; justify-content: space-between; gap: 16px; padding: 24px 0 50px; color: var(--muted); border-top: 1px solid var(--line); }
+    @media (max-width: 780px) { .hero, .grid { grid-template-columns: 1fr; } .cover { max-width: 320px; } header, footer { flex-direction: column; align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="brand" href="/"><img src="assets/ELReverserLogo.svg" alt="" /><span>ELReverser</span></a>
+      <nav><a href="#features">Features</a><a href="#codes">Codes</a><a href="https://github.com/duuberian/ELReverser">Source</a></nav>
+    </header>
+
+    <div class="hero">
+      <div>
+        <span class="badge">macOS · Android</span>
+        <h1>Play it <span class="accent">backwards.</span></h1>
+        <p class="lead">Record or import sound, reverse it whole or in chunks, chain operations into a shareable scramble code, then decode it back to the original audio.</p>
+        <div class="buttons">
+          <a class="button" href="https://github.com/duuberian/ELReverser/releases/latest" target="_blank" rel="noopener">Download the latest release</a>
+          <a class="button ghost" href="https://github.com/duuberian/ELReverser" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+      <div class="cover" aria-hidden="true">
+        <div class="wave"><i style="height:32%"></i><i style="height:76%"></i><i style="height:49%"></i><i style="height:88%"></i><i style="height:38%"></i><i style="height:68%"></i><i style="height:27%"></i><i style="height:57%"></i></div>
+        <div class="sticker">reverse · scramble · <em>decode.</em></div>
+      </div>
+    </div>
+
+    <section id="features">
+      <h2>Made for little audio experiments.</h2>
+      <div class="grid">
+        <div class="card"><strong>Record &amp; import</strong><span>Capture microphone input or open WAV, M4A, MP3, AIFF and OGG files.</span></div>
+        <div class="card"><strong>Reverse &amp; trim</strong><span>Reverse the whole clip, split it into chunks, or trim from the waveform.</span></div>
+        <div class="card"><strong>Chain &amp; decode</strong><span>Combine steps into a scramble code, save the audio, and undo it later.</span></div>
+      </div>
+    </section>
+
+    <section id="codes">
+      <h2>Scramble codes stay readable.</h2>
+      <p><code>SCR1:R</code> reverses the full clip. <code>SCR1:C0.5</code> reverses half-second chunks. Longer chains, such as <code>SCR1:R-C0.5-R</code>, store every step so the same operations can be replayed in reverse.</p>
+    </section>
+
+    <footer>
+      <span>ELReverser · an independent project</span>
+      <a href="https://github.com/duuberian/ELReverser/releases/latest" target="_blank" rel="noopener">Get the app ↗</a>
+    </footer>
+  </main>
+</body>
+</html>
