@@ -663,6 +663,70 @@ h2 {
   right: 29px;
   font: 10px var(--mono);
 }
+.transfer-art {
+  background: #d7ecf4;
+}
+.transfer-screens {
+  position: absolute;
+  inset: 110px 9% 90px;
+  display: grid;
+  grid-template-columns: 1fr 44px 1fr;
+  align-items: center;
+  gap: 6px;
+  transform: rotate(-4deg);
+}
+.transfer-screen {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 16px;
+  background: var(--paper);
+  box-shadow: 8px 10px 0 #2f6d8d22;
+}
+.transfer-wire {
+  display: block;
+  height: 0;
+  border-top: 2px dashed #2f6d8d;
+  opacity: 0.55;
+}
+.transfer-cursor {
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  font-style: normal;
+  font-size: 26px;
+  color: #201d1a;
+  transform: rotate(-20deg);
+  transition: transform 0.5s, left 0.5s;
+}
+.transfer-ghost {
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #0a84ffbf;
+  box-shadow: inset 0 0 0 4px #fff;
+  opacity: 0.35;
+  transform: scale(0.7);
+  transition: transform 0.5s, opacity 0.5s, left 0.5s;
+}
+.project:hover .transfer-cursor,
+.project:hover .transfer-ghost {
+  left: 78%;
+}
+.project:hover .transfer-ghost {
+  opacity: 1;
+  transform: scale(1);
+}
+.transfer-note {
+  position: absolute;
+  transform: rotate(-6deg);
+  right: 26px;
+  bottom: 26px;
+  color: #2f6d8d;
+}
 .text-link {
   display: flex;
   align-items: center;
