@@ -4,17 +4,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ELTransfer</title>
         <item>
-            <title>0.1.21</title>
-            <pubDate>Mon, 28 Sep 2026 19:55:27 +0000</pubDate>
+            <title>0.1.22</title>
+            <pubDate>Tue, 29 Sep 2026 18:06:59 +0000</pubDate>
             <link>https://duuberian.com/eltransfer/</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://duuberian.com/eltransfer/updates/ELTransfer-24.zip" length="1370864" type="application/octet-stream" sparkle:edSignature="oNCKNVmyWQt3uizDTk02mM74Yp/LP6T7qdDyetepnPNkhZX1bJGbAh5RjWm/jJwvVXTctFTwuHz4Gm3+5CJ2DA=="></enclosure>
+            <enclosure url="https://duuberian.com/eltransfer/updates/ELTransfer-25.zip" length="1370853" type="application/octet-stream" sparkle:edSignature="NHocuAtspYiOjPelL8v4m72rIQt+0QZVqsfcFzk1IGgHdVOeF04YxYz+aTJxxVoE5L+uqajsk6/AuagZ0quXBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: LfDvWaahFxHzPWGcLxoFyU0JJX4MAojBPb6mJcOmDQiVwv4JTWgsy/2l1iwBKpjOnLq5iIrRDsse2bqB213ADA==
+edSignature: 4tu/X/EUyEYqPVqA1StO766vDfJgNPtz+ooUbzEdmljcJYfzo2DI4vjDrlQSz+CaIRLl/v1AdbgMrE5YtCAXAw==
 length: 1162
 -->
