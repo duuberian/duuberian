@@ -4,18 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ELWifi</title>
         <item>
-            <title>1.2.9</title>
-            <pubDate>Fri, 25 Sep 2026 20:19:52 +0000</pubDate>
+            <title>1.2.16</title>
+            <pubDate>Sun, 04 Oct 2026 14:42:25 +0000</pubDate>
             <link>https://duuberian.com/elwifi/</link>
-            <sparkle:version>1092001</sparkle:version>
-            <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+            <sparkle:version>1099001</sparkle:version>
+            <sparkle:shortVersionString>1.2.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.2.9</h2><p>Changes since 1.2.8 · 2026-09-25</p><ul><li>Remove Check for Portal menu card</li></ul></body></html>]]></description>
-            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1092001.zip" length="2576098" type="application/octet-stream" sparkle:edSignature="gy0RfpprM7CCOO51swIjGN2EC+TzasBqjAGh+1P1x2d+PZLjnDO0VYcGKoG62dG/tfYkDT3OhZQeeq0ltgBZBA=="></enclosure>
+            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><style>body{font:14px -apple-system,sans-serif;line-height:1.5;padding:16px}li{margin:8px 0}</style></head><body><h2>What’s New in ELWifi 1.2.16</h2><p>Changes since 1.2.15 · 2026-10-04</p><ul><li>Let ELWifi turn off the macOS login popup and detect portals sooner</li></ul></body></html>]]></description>
+            <enclosure url="https://duuberian.com/elwifi/updates/ELWifi-1099001.zip" length="2655397" type="application/octet-stream" sparkle:edSignature="MoZcuQhV/2fHxYZKBgYG8sG+XVMZzxJuQfKgZun6C5GfeOEowB0rqB9OKKwTmAtckwdGoI8b7LZlFj9fm9EvBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QGayayKe02qeqX3ndkPiJBKJp2vOBSf9hOk0drTnI6TEhVbNg6sK/9xyRvXnthCH4xR2BfYqijRAeUpPrJLDBg==
-length: 1510
+edSignature: YjMtGNa3hrVJmkyOR8RmSvKZ98Dpc1VqZJauY5mp+u3KPPNvfkuFvk/P9BJZBM7qi92OE1wKKxIWBzOaH6XDDA==
+length: 1548
 -->
