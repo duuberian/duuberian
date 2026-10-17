@@ -727,6 +727,61 @@ h2 {
   bottom: 26px;
   color: #2f6d8d;
 }
+.voice-art {
+  background: #e3dcf5;
+}
+.voice-bubbles {
+  position: absolute;
+  inset: 95px 10% 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+}
+.voice-bubble {
+  position: relative;
+  align-self: flex-start;
+  padding: 16px 20px;
+  border-radius: 22px 22px 22px 6px;
+  background: var(--paper);
+  font-size: 26px;
+  letter-spacing: -1.2px;
+  line-height: 1.05;
+  box-shadow: 8px 10px 0 #2b1f3d1f;
+  transform: rotate(-4deg);
+  transition: transform 0.5s;
+}
+.voice-out {
+  align-self: flex-end;
+  border-radius: 22px 22px 6px 22px;
+  background: #2b1f3d;
+  color: var(--lime);
+  font-size: 32px;
+  transform: rotate(5deg);
+}
+.voice-out em {
+  font-family: Georgia;
+}
+.voice-out small {
+  display: block;
+  margin-top: 8px;
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+  color: #f6f5efb3;
+}
+.project:hover .voice-in {
+  transform: rotate(-1deg) translateX(10px);
+}
+.project:hover .voice-out {
+  transform: rotate(-3deg) scale(1.04);
+}
+.voice-note {
+  position: absolute;
+  left: 26px;
+  bottom: 24px;
+  transform: rotate(-6deg);
+  color: #5b3fc4;
+}
 .text-link {
   display: flex;
   align-items: center;
@@ -1420,4 +1475,21 @@ body.paused .ticker > div {
 
 html {
   overflow-x: clip;
+}
+@media (max-width: 700px) {
+  .voice-bubbles {
+    inset: 60px 8% 60px;
+    gap: 16px;
+  }
+  .voice-bubble {
+    font-size: 21px;
+    padding: 13px 16px;
+  }
+  .voice-out {
+    font-size: 25px;
+  }
+  .voice-note {
+    font-size: 15px;
+    bottom: 18px;
+  }
 }
